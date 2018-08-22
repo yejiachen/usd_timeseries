@@ -3,8 +3,8 @@
 # number of training data = samples*training_data_rate = a
 # number of validation_y data = samples*(1-training_data_rate) = b
 
-# train_x size: (a, 5, 26), train_y size: (a, 7)
-# validation_x size: (b, 5, 26), validation_y size: (b, 7)
+# train_x size: (a, 5, features), train_y size: (a, 7)
+# validation_x size: (b, 5, features), validation_y size: (b, 7)
 
 import numpy as np
 
