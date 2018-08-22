@@ -206,8 +206,8 @@ train_history = model.fit(
 
 # summarize history for loss
 plt.figure(figsize=(20,8))
-plt.plot(train_history.history['val_loss'])
 plt.plot(train_history.history['loss'])
+plt.plot(train_history.history['val_loss'])
 plt.title('model loss')
 plt.ylabel('loss')
 plt.xlabel('epoch')
