@@ -1,6 +1,4 @@
 # usd_timeseries
-With 87.79% accuracy, surpass academic baseline by 31%. 
-
 USD Index time series prediction on 5d data forecast future 7d, using deep learning method(Conv1D/ LSTM)
 ### Reference:
 >>E-swish: Adjusting Activations to Different Network Depths (arXiv:1801.07145 [cs.CV])
