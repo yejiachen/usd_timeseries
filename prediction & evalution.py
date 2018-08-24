@@ -1,4 +1,4 @@
-# Make 7 days arraies for evalution
+# Set 7 days arrays for evolution
 # (1) value of prediction (2) actual value (3) prediction of trend (4) actual trend (5) weather prediction of trend is accurate or not
 
 def pred_7d(model_saved, validation_x, validation_y, forecast_day, scaler, train, real_updown):
